@@ -1,0 +1,22 @@
+{
+    "name": "allan_cervantes/pj-igreja",
+    "description": "Projeto de sistema para adicionar membros da igreja(Marcos)",
+    "authors": [
+        {
+            "name": "Allan Camargo",
+            "email": "allan.cdev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "slim/slim": "^3.1",
+        "slim/php-view": "^2.0",
+        "monolog/monolog": "^1.17",
+        "robmorgan/phinx": "^0.5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "nexti\\" : "vendor\\nexti\\php-classes\\src"
+        }
+    }
+}
